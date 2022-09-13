@@ -7,6 +7,7 @@ export default function Zodiac(props) {
       <span className="name">{props.sign}</span>
       <h1 className="sign-emoji">{props.emoji}</h1>
       <span>{props.dates}</span>
+      <img src={`${process.env.PUBLIC_URL}/signs/${props.sign}.png`}/>
     </div>
   );
 }
