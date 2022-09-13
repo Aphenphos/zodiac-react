@@ -70,6 +70,4 @@ export const signs = [
     dates: 'Aug 23 - Sep 22',
     emoji: '♍'
   },
-
-
 ];
